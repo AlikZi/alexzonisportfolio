@@ -3432,3 +3432,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .cursor-default {
   cursor: default;
 }
+
+.img-rounded-corners{
+  border-radius: 4px;
+}
