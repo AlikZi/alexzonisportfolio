@@ -2378,13 +2378,13 @@ body.mobile-nav-active #mobile-nav-toggle {
       color: #222222; }
     .single-job .primary-btn:before {
       color: #222222; }
-  .single-job:hover {
+  /*.single-job:hover {
     background: #90acd1;
     cursor: pointer;
     color: #fff; }
     .single-job:hover .top-left h4 {
       color: #fff; }
-
+*/
 .service-area {
   background: #f9f9ff; }
   .service-area.white {
@@ -3420,6 +3420,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .skill-logo-img {
   width: 100px;
   height: auto;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 
@@ -3438,16 +3441,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-.box a.isDisabled, .box a.isDisabled:hover{
-  opacity: 0.5;
-}
-
-
 a[aria-disabled="true"] {
   pointer-events: none;
 }
 
+.box a.isDisabled, .box a.isDisabled:hover{
+  opacity: 0.5;
+}
 
+.next-project-btn{
+  background-color: #90acd1;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  width: 150px;
+  padding: 8px;
+}
+@media (max-width: 576px){
+  .next-project-btn{
+    font-size: 14px;
+    width: 120px;
+  }
+}
+
+.next-project-btn:hover {
+  background-color: #7793b8;
+  color: #fff;
+}
+
+.button-project-controler {
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
 /* Bouncing Arrow */
 
 .downArrow{
