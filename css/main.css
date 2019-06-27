@@ -3361,10 +3361,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 ################
 */
 .footer-area {
-  padding: 100px 0; }
-  @media (max-width: 1024px) {
-    .footer-area {
-      padding: 60px 0; } }
+  padding: 50px 0; }
   .footer-area .footer-logo {
     text-align: center; }
     .footer-area .footer-logo h4 {
@@ -3417,6 +3414,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.2);
 }
 
+/*
+@media (min-width: 1024px){
+  .img-about-me{
+    max-width: 80%;
+    align-self: end;
+  }
+}
+*/
 .skill-logo-img {
   width: 100px;
   height: auto;
