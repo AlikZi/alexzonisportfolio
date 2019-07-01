@@ -3406,6 +3406,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 1;
 }
 
+/* LOGO SIZING */
+
+.logo-main-img {
+  width: 75px;
+  height: auto;
+}
+
+
 /* ABOUT ME IMAGE */
 
 .img-about-me{
